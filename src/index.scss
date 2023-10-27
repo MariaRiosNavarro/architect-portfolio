@@ -1,0 +1,95 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+/* -Global Styles*/
+
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../src/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  @include robo-light;
+}
+
+.wrapper {
+  background-color: $same-color-light;
+  min-height: 100vh;
+  padding-top: 1rem;
+  min-width: 100%;
+}
+
+.row {
+  @include f-row;
+}
+
+.column {
+  @include f-column;
+}
+
+.text-center {
+  text-align: center;
+  padding: 2rem;
+}
+
+.page-wrapper {
+  padding: 0 2rem;
+  position: relative;
+}
+
+.card-wrapper {
+  border-radius: 10px;
+
+  border: 1px solid $comp-color;
+  padding: 1rem;
+  @include f-column;
+  gap: 1rem;
+}
+
+.card {
+  background-color: $light-text;
+  border-radius: 8px;
+  padding: 1rem;
+  @include f-column;
+  gap: 1rem;
+  box-shadow: 5px 5px 5px darkgray;
+  &:hover {
+    background-color: $comp-color;
+  }
+}
+
+.space {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $color;
+}

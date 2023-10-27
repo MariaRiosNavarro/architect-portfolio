@@ -4,6 +4,6 @@
 
 <div>
 
-<img src="./public/readme/flow-chart.png" alt="" width="300px">
+<img src="./public/readme/flow-chart.png" alt="" width="500px">
 
 </div>

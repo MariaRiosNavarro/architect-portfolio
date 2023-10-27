@@ -1,37 +1,22 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import "./Loading.scss";
+import { useContext } from "react";
+import { LoadingContext } from "../Context/Context";
 
-const Loading = (props) => {
-  const [count, setCount] = useState(0);
+const Loading = () => {
+  const { setLoading } = useContext(LoadingContext);
+
   useEffect(() => {
-    console.log(count);
-  }, [count]);
+    setTimeout(() => {
+      setLoading(true);
+    }, 2000);
+  }, []);
 
   return (
     <>
       <h1>Loading</h1>
-      <section>
-        <article>
-          <h2>{props.property}</h2>
-          <button
-            onClick={() => {
-              setCount(count + 1);
-            }}
-          >
-            click +1
-          </button>
-          <p>{count}</p>
-          <Link to="/">See More</Link>
-        </article>
-      </section>
+      <article className="animation"></article>
     </>
   );
-};
-
-Loading.propTypes = {
-  property: PropTypes.string,
 };
 
 export default Loading;

@@ -10,7 +10,7 @@ const App = () => {
     <>
       <section className={theme ? "dark" : null}>
         <ThemeContext.Provider value={{ theme, setTheme }}>
-          <LoadingContext.Provider value={{ loading, setLoading }}>
+          <LoadingContext.Provider value={{ setLoading }}>
             {loading ? (
               <BrowserRouter>
                 <Routes>

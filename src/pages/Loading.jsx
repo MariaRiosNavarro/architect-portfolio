@@ -1,5 +1,5 @@
 import "./Loading.scss";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { LoadingContext } from "../Context/Context";
 
 const Loading = () => {

@@ -4,6 +4,7 @@ import { LoadingContext } from "./Context/Context";
 import Gallery from "./pages/Gallery";
 import Main from "./pages/Main";
 import Loading from "./pages/Loading";
+import { useState } from "react";
 
 const App = () => {
   const [theme, setTheme] = useState(false);

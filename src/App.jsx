@@ -1,6 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeContext } from "./Context/Context";
 import { LoadingContext } from "./Context/Context";
+import Gallery from "./pages/Gallery";
+import Main from "./pages/Main";
+import Loading from "./pages/Loading";
 
 const App = () => {
   const [theme, setTheme] = useState(false);
@@ -14,12 +17,12 @@ const App = () => {
             {loading ? (
               <BrowserRouter>
                 <Routes>
-                  {/* <Route path="/" element={}></Route>
-          <Route path="/gallery" element={}></Route> */}
+                  <Route path="/" element={<Main />}></Route>
+                  <Route path="/gallery" element={<Gallery />}></Route>
                 </Routes>
               </BrowserRouter>
             ) : (
-              <LoadingPage />
+              <Loading />
             )}
           </LoadingContext.Provider>
         </ThemeContext.Provider>

@@ -65,13 +65,12 @@ a {
   background-color: $color;
   color: $dark-text;
   min-height: 100vh;
-}
-
-.dark a {
-  color: $dark-text;
-}
-.dark svg {
-  color: $dark-text;
+  a {
+    color: $dark-text;
+  }
+  svg {
+    fill: white;
+  }
 }
 
 input {

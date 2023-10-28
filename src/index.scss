@@ -81,6 +81,9 @@ input {
 .big-number {
   color: $big-number-color;
 }
+
+// ! DARK MODUS
+
 .dark {
   background-color: $color;
   color: $dark-text;
@@ -94,6 +97,12 @@ input {
   header {
     .logo-wrapper {
       fill: white;
+    }
+    .nav-wrapper {
+      .active {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+      }
     }
   }
 

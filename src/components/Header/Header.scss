@@ -2,17 +2,76 @@
 @import "../../mixin.scss";
 
 .header-wrapper {
+  @include f-row;
+  justify-content: space-between;
   padding: 0 13rem;
-  align-items: flex-start;
+  align-items: center;
+
+  .icon-wrapper {
+    @include center-row;
+  }
 
   .nav-wrapper {
+    @include f-row;
     align-items: center;
+    .nav-wrapper-links {
+      @include f-row;
+    }
+
     a {
       margin: 4.5rem 5rem;
     }
     .active {
       border-bottom: 1px solid $color;
       border-top: 1px solid $color;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-wrapper {
+    justify-content: center;
+    padding: 0 5rem;
+    .nav-wrapper {
+      .nav-wrapper-links {
+        a {
+          margin: 4.5rem 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header-wrapper {
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    .nav-wrapper {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      .nav-wrapper-links {
+        flex-wrap: wrap;
+        a {
+          margin: 2rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-wrapper {
+    padding: 0 1rem;
+    .icon-wrapper {
+      width: 3rem;
+      padding-top: 0.5rem;
+    }
+    .nav-wrapper {
+      .nav-wrapper-links {
+        a {
+          margin: 0.5rem;
+        }
+      }
     }
   }
 }

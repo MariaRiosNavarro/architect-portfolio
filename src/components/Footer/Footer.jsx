@@ -60,7 +60,7 @@ const Footer = () => {
           </article>
         </section>
         <section>
-          <h2 className="copyright">© 2021 All Rights Reserved</h2>
+          <h4 className="copyright">© 2021 All Rights Reserved</h4>
         </section>
       </footer>
     </>

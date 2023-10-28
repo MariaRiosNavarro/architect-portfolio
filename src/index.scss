@@ -61,18 +61,6 @@ a {
   color: $color;
 }
 
-.dark {
-  background-color: $color;
-  color: $dark-text;
-  min-height: 100vh;
-  a {
-    color: $dark-text;
-  }
-  svg {
-    fill: white;
-  }
-}
-
 input {
   background-color: $input-bg;
   &::placeholder {
@@ -82,4 +70,17 @@ input {
 
 .big-number {
   color: $big-number-color;
+}
+
+.dark {
+  background-color: $color;
+  color: $dark-text;
+  min-height: 100vh;
+  a {
+    color: $dark-text;
+  }
+  .logo {
+    color: white;
+    fill: white;
+  }
 }

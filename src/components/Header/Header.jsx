@@ -4,11 +4,12 @@ import { NavLink } from "react-router-dom";
 import "./Header.scss";
 import { useContext } from "react";
 import { ThemeContext } from "../../Context/Context";
-import ToggleDark from "../../assets/svg/toggleDark";
 import Logo from "../../assets/svg/logo";
+import LightIcon from "../../assets/svg/LightIcon";
+import DarkIcon from "../../assets/svg/DarkIcon";
 
 const Header = () => {
-  const { setTheme } = useContext(ThemeContext);
+  const { theme, setTheme } = useContext(ThemeContext);
 
   const handleToggleDark = () => {
     setTheme((value) => !value);
@@ -17,7 +18,7 @@ const Header = () => {
     <>
       <header>
         <h1 aria-label="logo of arquitect portfolio">
-          <Logo />
+          <Logo className="logo" />
         </h1>
         <div className="nav-wrapper">
           <nav>
@@ -28,7 +29,7 @@ const Header = () => {
             <NavLink to="/">CONTACTS</NavLink>
           </nav>
           <span onClick={handleToggleDark}>
-            <ToggleDark />
+            {theme ? <LightIcon /> : <DarkIcon />}
           </span>
         </div>
       </header>

@@ -1,6 +1,7 @@
 import Button from "../Button/Button";
+import "./Projects.scss";
 
-const Project = () => {
+const Projects = () => {
   return (
     <article className="project-wrapper">
       <h2>Our Projects</h2>
@@ -28,4 +29,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

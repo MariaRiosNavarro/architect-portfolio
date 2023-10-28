@@ -7,8 +7,9 @@ import Footer from "../components/Footer/Footer";
 import About from "../components/Main/About";
 import Intro from "../components/Main/Intro";
 import Mision from "../components/Main/Mision";
-import Project from "../components/Main/Projects";
+import Projects from "../components/Main/Projects";
 import Contact from "../components/Main/Contact";
+import "./Main.scss";
 
 const Main = () => {
   // const [count, setCount] = useState(0);
@@ -18,15 +19,17 @@ const Main = () => {
 
   return (
     <>
-      <Header />
-      <section>
-        <Intro />
-        <About />
-        <Mision />
-        <Project />
-        <Contact />
+      <section className="page-wrapper">
+        <Header />
+        <section className="main-wrapper">
+          <Intro />
+          <About />
+          <Mision />
+          <Projects />
+          <Contact />
+        </section>
+        <Footer />
       </section>
-      <Footer />
     </>
   );
 };

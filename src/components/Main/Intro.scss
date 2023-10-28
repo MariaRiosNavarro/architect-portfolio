@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+@import "../../mixin.scss";
+
+.intro-wrapper {
+  @include f-row;
+  .intro-text {
+    @include center-column;
+    width: 30%;
+  }
+  .intro-img-wrapper {
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    a {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: $dark-text;
+    }
+  }
+}

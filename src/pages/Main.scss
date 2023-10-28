@@ -1,2 +1,6 @@
-// @import "../variables.scss";
-// @import "../mixin.scss";
+@import "../variables.scss";
+@import "../mixin.scss";
+
+.main-wrapper {
+  padding: 0 14rem;
+}

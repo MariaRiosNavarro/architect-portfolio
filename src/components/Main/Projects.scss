@@ -1,2 +1,54 @@
 @import "../../variables.scss";
 @import "../../mixin.scss";
+
+.project-wrapper {
+  @include f-column;
+  .projects-img-wrapper {
+    @include f-column;
+    gap: 3rem;
+    .projects-row {
+      @include f-row;
+      gap: 3rem;
+      .first-wrapper {
+        position: relative;
+        .projects-text {
+          position: absolute;
+          @include f-column;
+          bottom: 0;
+          background-color: rgba($color: rgb(68, 63, 63), $alpha: 0.3);
+          padding-top: 4rem;
+          padding-left: 5rem;
+
+          h3 {
+            color: #fff;
+            font-family: $roboto-b;
+            width: 23rem;
+            font-size: 6rem;
+            font-weight: 700;
+            align-self: flex-start;
+            opacity: 0.9;
+            z-index: 3;
+          }
+
+          a {
+            color: #fff;
+            align-self: flex-start;
+            opacity: 0.9;
+            z-index: 3;
+          }
+
+          svg {
+            fill: white;
+            color: white;
+          }
+
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  a {
+    align-self: flex-end;
+  }
+}

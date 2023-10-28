@@ -7,6 +7,9 @@
   .intro-text {
     @include center-column;
     width: 30%;
+    span {
+      font-size: 6.4rem;
+    }
   }
   .intro-img-wrapper {
     width: 70%;

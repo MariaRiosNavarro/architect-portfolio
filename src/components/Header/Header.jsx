@@ -17,19 +17,22 @@ const Header = () => {
   };
   return (
     <>
-      <header className="row space">
-        <span className="logo-wrapper" aria-label="logo of arquitect portfolio">
+      <header className="header-wrapper row space">
+        <span
+          className="logo-wrapper icon-wrapper center-row"
+          aria-label="logo of arquitect portfolio"
+        >
           <Logo id="logo" />
         </span>
-        <div className="nav-wrapper">
+        <div className="nav-wrapper row">
           <nav className="row">
             <NavLink to="/">MAIN</NavLink>
             <NavLink to="/gallery">GALLERY</NavLink>
-            <NavLink to="/">PROJECTS</NavLink>
-            <NavLink to="/">CERTIFICATIONS</NavLink>
-            <NavLink to="/">CONTACTS</NavLink>
+            <NavLink to="/other">PROJECTS</NavLink>
+            <NavLink to="/other">CERTIFICATIONS</NavLink>
+            <NavLink to="/other">CONTACTS</NavLink>
           </nav>
-          <span onClick={handleToggleDark}>
+          <span onClick={handleToggleDark} className="icon-wrapper center-row">
             {theme ? <LightIcon /> : <DarkIcon />}
           </span>
         </div>

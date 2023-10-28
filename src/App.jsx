@@ -5,6 +5,7 @@ import Gallery from "./pages/Gallery";
 import Main from "./pages/Main";
 import Loading from "./pages/Loading";
 import { useState } from "react";
+import Other from "./pages/Other";
 // import "./App.scss";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
                 <Routes>
                   <Route path="/" element={<Main />}></Route>
                   <Route path="/gallery" element={<Gallery />}></Route>
+                  <Route path="/other" element={<Other />}></Route>
                 </Routes>
               </BrowserRouter>
             ) : (

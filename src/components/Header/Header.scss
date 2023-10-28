@@ -1,1 +1,18 @@
+@import "../../variables.scss";
+@import "../../mixin.scss";
 
+.header-wrapper {
+  padding: 0 13rem;
+  align-items: flex-start;
+
+  .nav-wrapper {
+    align-items: center;
+    a {
+      margin: 4.5rem 5rem;
+    }
+    .active {
+      border-bottom: 1px solid $color;
+      border-top: 1px solid $color;
+    }
+  }
+}

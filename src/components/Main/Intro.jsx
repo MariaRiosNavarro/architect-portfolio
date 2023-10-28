@@ -9,8 +9,10 @@ const Intro = () => {
         <span>Lorum</span>
       </div>
       <div className="intro-img-wrapper">
-        <img src="/public/home/img1.jpeg" alt="building" />
-        <Button name="VIEW PROJECT" />
+        <div className="img-relativ">
+          <img src="/public/home/img1.jpeg" alt="building" />
+          <Button name="VIEW PROJECT" />
+        </div>
       </div>
     </article>
   );

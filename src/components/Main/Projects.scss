@@ -48,7 +48,13 @@
       }
     }
   }
-  a {
+
+  .btn {
     align-self: flex-end;
+    background-color: $color;
+    color: $dark-text;
+    svg {
+      fill: white;
+    }
   }
 }

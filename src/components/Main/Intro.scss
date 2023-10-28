@@ -5,6 +5,7 @@
   width: 100%;
   @include f-row;
   justify-content: space-between;
+  max-height: 70vh;
 
   .intro-text {
     @include center-column;
@@ -14,20 +15,22 @@
     }
   }
   .intro-img-wrapper {
-    background-color: blue;
     overflow: hidden;
     width: 60%;
-    position: relative;
+
     @include f-row;
     justify-content: flex-end;
-    img {
-      overflow: hidden;
-    }
-    a {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      background-color: $dark-text;
+    .img-relativ {
+      position: relative;
+      img {
+        overflow: hidden;
+      }
+      a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: $dark-text;
+      }
     }
   }
 }

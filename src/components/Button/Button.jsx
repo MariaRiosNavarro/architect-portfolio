@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import Arrow from "../../assets/svg/Arrow";
+import "./Button.scss";
 
 const Button = ({ name }) => {
   return (

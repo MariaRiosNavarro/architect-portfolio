@@ -52,4 +52,12 @@
       }
     }
   }
+  .btn {
+    align-self: self-start;
+    background-color: $color;
+    color: $dark-text;
+    svg {
+      fill: white;
+    }
+  }
 }

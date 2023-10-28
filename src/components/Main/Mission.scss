@@ -1,2 +1,28 @@
 @import "../../variables.scss";
 @import "../../mixin.scss";
+
+.mission-wrapper {
+  @include f-column;
+  .mi-wrapper {
+    @include f-row;
+    gap: 10rem;
+    .mission {
+      @include f-row;
+      align-items: center;
+      gap: 1rem;
+      .number {
+        font-size: 20rem;
+        color: $big-number-color;
+        font-family: $roboto-b;
+        font-weight: 900;
+      }
+      p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: $color;
+        font-family: $roboto-l;
+        line-height: 3.6rem;
+      }
+    }
+  }
+}

@@ -4,9 +4,10 @@ import { NavLink } from "react-router-dom";
 import "./Header.scss";
 import { useContext } from "react";
 import { ThemeContext } from "../../Context/Context";
-import Logo from "../../assets/svg/logo";
+import Logo from "../../assets/svg/Logo";
 import LightIcon from "../../assets/svg/LightIcon";
 import DarkIcon from "../../assets/svg/DarkIcon";
+import "./Header.scss";
 
 const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -16,12 +17,12 @@ const Header = () => {
   };
   return (
     <>
-      <header>
-        <h1 aria-label="logo of arquitect portfolio">
-          <Logo className="logo" />
-        </h1>
+      <header className="row space">
+        <span className="logo-wrapper" aria-label="logo of arquitect portfolio">
+          <Logo id="logo" />
+        </span>
         <div className="nav-wrapper">
-          <nav>
+          <nav className="row">
             <NavLink to="/">MAIN</NavLink>
             <NavLink to="/gallery">GALLERY</NavLink>
             <NavLink to="/">PROJECTS</NavLink>

@@ -79,8 +79,9 @@ input {
   a {
     color: $dark-text;
   }
-  .logo {
-    color: white;
-    fill: white;
+  header {
+    .logo-wrapper {
+      fill: white;
+    }
   }
 }

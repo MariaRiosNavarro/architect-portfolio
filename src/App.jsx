@@ -5,7 +5,7 @@ import Gallery from "./pages/Gallery";
 import Main from "./pages/Main";
 import Loading from "./pages/Loading";
 import { useState } from "react";
-import "./App.scss";
+// import "./App.scss";
 
 const App = () => {
   const [theme, setTheme] = useState(false);

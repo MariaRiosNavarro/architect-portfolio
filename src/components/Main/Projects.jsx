@@ -11,7 +11,7 @@ const Projects = () => {
             <img src="/public/home/img5.png" alt="" />
             <div className="projects-text">
               <h3>Sample Project</h3>
-              <Button name="VIEW MORE" />
+              <Button name="VIEW MORE" className="special-btn" />
             </div>
           </div>
           <div className="p-img-wrapper">

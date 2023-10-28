@@ -22,6 +22,9 @@
       font-family: $roboto-l;
       line-height: 2.5rem;
     }
+    a {
+      align-self: flex-start;
+    }
   }
   .one {
     grid-area: one;

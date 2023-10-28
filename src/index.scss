@@ -85,12 +85,33 @@ input {
   background-color: $color;
   color: $dark-text;
   min-height: 100vh;
+  p {
+    color: $dark-text;
+  }
   a {
     color: $dark-text;
   }
   header {
     .logo-wrapper {
       fill: white;
+    }
+  }
+
+  .btn:not(.special-btn) {
+    background-color: white;
+    color: $color;
+
+    svg {
+      fill: $color;
+    }
+  }
+  .mission-wrapper {
+    .mi-wrapper {
+      .mission {
+        p {
+          color: $dark-text;
+        }
+      }
     }
   }
 }

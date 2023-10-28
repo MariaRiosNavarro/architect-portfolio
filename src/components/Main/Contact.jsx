@@ -48,7 +48,7 @@ const Contact = () => {
             <textarea
               type="text"
               name="area"
-              rows={12}
+              rows={14}
               className="input-required"
               id="area"
             />

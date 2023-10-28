@@ -7,14 +7,14 @@ const Mision = () => {
       <div className="mi-wrapper">
         <div className="mission">
           <span className="number">1</span>
-          <p>
+          <p className="mission-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             efficitur, lectus et facilisis placerat.
           </p>
         </div>
         <div className="mission">
           <span className="number">2</span>
-          <p>
+          <p className="mission-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             efficitur, lectus et facilisis placerat, magna mauris porttitor
             tortor, a auctor est felis ut nisl.

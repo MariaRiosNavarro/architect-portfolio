@@ -1,2 +1,36 @@
 @import "../../variables.scss";
 @import "../../mixin.scss";
+
+.about-grid {
+  padding: 0 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 40rem;
+  grid-template-rows: 26rem 14rem;
+  grid-template-areas:
+    "one two text"
+    "three two text";
+  gap: 3rem;
+  .text {
+    grid-area: text;
+    @include f-column;
+    justify-content: center;
+    h2 {
+      padding-bottom: 2rem;
+    }
+    p {
+      padding-bottom: 6rem;
+      font-family: $roboto-l;
+      line-height: 2.5rem;
+    }
+  }
+  .one {
+    grid-area: one;
+  }
+  .two {
+    grid-area: two;
+    padding: 3rem 0;
+  }
+  .three {
+    grid-area: three;
+  }
+}

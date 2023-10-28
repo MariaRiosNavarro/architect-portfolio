@@ -13,6 +13,16 @@
   src: url("../src/assets/fonts/Roboto/Roboto-Bold.ttf");
 }
 
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../src/assets/fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("../src/assets/fonts/Roboto/Roboto-Thin.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -84,4 +94,11 @@ input {
       fill: white;
     }
   }
+}
+
+h2 {
+  font-size: 6.4rem;
+  color: $light;
+  font-family: $roboto-t;
+  font-weight: 300;
 }

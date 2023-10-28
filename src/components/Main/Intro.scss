@@ -3,6 +3,7 @@
 
 .intro-wrapper {
   @include f-row;
+  max-height: 80vh;
   .intro-text {
     @include center-column;
     width: 30%;

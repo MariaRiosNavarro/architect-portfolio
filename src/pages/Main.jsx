@@ -4,28 +4,28 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 import "./Main.scss";
 import Footer from "../components/Footer/Footer";
+import About from "../components/Main/About";
+import Intro from "../components/Main/Intro";
+import Mision from "../components/Main/Mision";
+import Project from "../components/Main/Projects";
+import Contact from "../components/Main/Contact";
 
 const Main = () => {
-  const [count, setCount] = useState(0);
-  useEffect(() => {
-    console.log(count);
-  }, [count]);
+  // const [count, setCount] = useState(0);
+  // useEffect(() => {
+  //   console.log(count);
+  // }, [count]);
 
   return (
     <>
       <Header />
-      <article>
-        <h2>Main</h2>
-        <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          click +1
-        </button>
-        <p>{count}</p>
-        <Link to="/">See More</Link>
-      </article>
+      <section>
+        <Intro />
+        <About />
+        <Mision />
+        <Project />
+        <Contact />
+      </section>
       <Footer />
     </>
   );

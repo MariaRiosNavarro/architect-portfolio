@@ -1,2 +1,8 @@
-// @import "../variables.scss";
-// @import "../mixin.scss";
+@import "../variables.scss";
+@import "../mixin.scss";
+
+.animation {
+  background-color: $color;
+  @include center-column;
+  min-height: 100vh;
+}

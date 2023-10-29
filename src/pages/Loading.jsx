@@ -8,13 +8,14 @@ const Loading = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-    }, 300);
+    }, 1000);
   }, []);
 
   return (
     <>
-      <h1>Loading</h1>
-      <article className="animation">yeeeeeee🍺🍺🍺</article>
+      <article className="animation">
+        <h2>Loading . . .</h2>
+      </article>
     </>
   );
 };

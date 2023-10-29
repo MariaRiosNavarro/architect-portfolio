@@ -18,11 +18,8 @@ const Header = () => {
   return (
     <>
       <header className="header-wrapper">
-        <span
-          className="logo-wrapper icon-wrapper"
-          aria-label="logo of arquitect portfolio"
-        >
-          <Logo id="logo" />
+        <span className="logo-wrapper icon-wrapper">
+          <Logo />
         </span>
         <div className="nav-wrapper">
           <nav className="nav-wrapper-links">

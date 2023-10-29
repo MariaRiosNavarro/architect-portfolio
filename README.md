@@ -1,6 +1,6 @@
 # Architect-Portfolio (Dektop, Tablet, Mobile)
 
-# [Netlify Deplpoyment] (https://spiffy-faloodeh-108a9f.netlify.app/)
+# [Netlify Deplpoyment](https://spiffy-faloodeh-108a9f.netlify.app/)
 
 # Process flow chart:
 

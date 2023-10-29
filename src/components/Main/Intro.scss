@@ -64,4 +64,13 @@
 }
 
 @media screen and (max-width: 400px) {
+  .intro-wrapper {
+    padding-top: 1rem;
+    .intro-text {
+      padding-right: 3rem;
+      span {
+        font-size: 3rem;
+      }
+    }
+  }
 }

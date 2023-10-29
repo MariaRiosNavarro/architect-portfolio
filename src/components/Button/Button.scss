@@ -4,3 +4,12 @@
     margin-left: 1.5rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .btn {
+    padding: 1.2rem 1.5rem;
+    svg {
+      margin-left: 0.5rem;
+    }
+  }
+}

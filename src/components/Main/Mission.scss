@@ -86,6 +86,21 @@
   }
 }
 
-// @media screen and (max-width: 400px) {
-
-// }
+@media screen and (max-width: 400px) {
+  .mission-wrapper {
+    .mi-wrapper {
+      gap: 3rem;
+      .mission {
+        align-items: center;
+        gap: 2rem;
+        .number {
+          font-size: 10rem;
+        }
+        p {
+          font-size: 1.5rem;
+          line-height: 2.5rem;
+        }
+      }
+    }
+  }
+}

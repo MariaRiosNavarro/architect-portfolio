@@ -72,6 +72,25 @@
   }
 }
 
-// @media screen and (max-width: 400px) {
-
-// }
+@media screen and (max-width: 400px) {
+  .about-grid {
+    display: grid;
+    grid-template-rows: 1fr 30vh;
+    grid-template-areas:
+      "text text text"
+      "one  three two";
+    gap: 3rem;
+    .two {
+      padding: 0;
+    }
+    .text {
+      a {
+        align-self: center;
+        width: 11rem;
+      }
+    }
+    .about-img-wrapper {
+      height: 30vh;
+    }
+  }
+}

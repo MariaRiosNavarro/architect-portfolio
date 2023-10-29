@@ -1,6 +1,6 @@
 # Architect-Portfolio
 
-# [Vercel Deplpoyment] ()
+# [Netlify Deplpoyment] (https://spiffy-faloodeh-108a9f.netlify.app/)
 
 # Process flow chart:
 

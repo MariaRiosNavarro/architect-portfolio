@@ -6,29 +6,32 @@
   width: 100%;
   @include f-row;
   justify-content: space-between;
-  max-height: 70vh;
+  max-height: 80vh;
 
   .intro-text {
     @include center-column;
-    width: 30%;
+    width: 35%;
     span {
       font-size: 6.4rem;
     }
   }
   .intro-img-wrapper {
     overflow: hidden;
-    width: 60%;
-
-    @include f-row;
-    justify-content: flex-end;
+    width: 65%;
+    // @include f-row;
+    // justify-content: flex-end;
     .img-relativ {
       position: relative;
+      overflow: hidden;
+      max-height: 80vh;
       img {
         overflow: hidden;
+        object-fit: cover;
+        width: 100%;
       }
       a {
         position: absolute;
-        bottom: 0;
+        bottom: 2rem;
         left: 0;
         background-color: $dark-text;
       }

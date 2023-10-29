@@ -9,7 +9,6 @@ const Contact = () => {
         <form>
           <label htmlFor="name">
             <h4>Name</h4>
-
             <input type="text" name="name" id="name" />
           </label>
           <label htmlFor="phone">

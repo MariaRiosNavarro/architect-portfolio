@@ -8,13 +8,17 @@
   }
   .contact-sm-wrapper {
     padding-bottom: 7rem;
+    height: 50vh;
     @include f-row;
+    justify-content: space-between;
     gap: 3rem;
+    overflow: hidden;
 
     form {
       width: 40%;
       height: 100%;
       @include f-column;
+      justify-content: space-between;
       gap: 1rem;
       overflow: hidden;
       input,
@@ -49,7 +53,8 @@
       width: 60%;
       height: 100%;
       img {
-        object-fit: cover;
+        height: 100%;
+        max-width: none;
       }
     }
   }

@@ -99,6 +99,9 @@
           max-width: 75vw;
           max-height: 45vh;
           overflow: hidden;
+          img {
+            object-fit: cover;
+          }
         }
         .first-wrapper {
           .projects-text {

@@ -1,12 +1,10 @@
-// import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-// import PropTypes from "prop-types";
 import "./Header.scss";
 import { useContext } from "react";
 import { ThemeContext } from "../../Context/Context";
-import Logo from "../../assets/svg/Logo";
-import LightIcon from "../../assets/svg/LightIcon";
-import DarkIcon from "../../assets/svg/DarkIcon";
+import Logo from "../HeaderSvg/Logo";
+import LightIcon from "../HeaderSvg/LightIcon";
+import DarkIcon from "../HeaderSvg/DarkIcon";
 import "./Header.scss";
 
 const Header = () => {

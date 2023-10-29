@@ -3,13 +3,13 @@
 // import PropTypes from "prop-types";
 import "./Footer.scss";
 import { NavLink } from "react-router-dom";
-import GeoIcon from "../../assets/svg/GeoIcon";
-import PhoneIcon from "../../assets/svg/PhoneIcon";
-import MailIcon from "../../assets/svg/MailIcon";
-import FbIcon from "../../assets/svg/FbIcon";
-import TwIcon from "../../assets/svg/TwIcon";
-import InstaIcon from "../../assets/svg/InstaIcon";
-import PinIcon from "../../assets/svg/PinIcon";
+import GeoIcon from "../FooterSvg/GeoIcon";
+import PhoneIcon from "../FooterSvg/PhoneIcon";
+import MailIcon from "../FooterSvg/MailIcon";
+import FbIcon from "../FooterSvg/FbIcon";
+import TwIcon from "../FooterSvg/TwIcon";
+import InstaIcon from "../FooterSvg/InstaIcon";
+import PinIcon from "../FooterSvg/PinIcon";
 
 const Footer = () => {
   //   const [count, setCount] = useState(0);

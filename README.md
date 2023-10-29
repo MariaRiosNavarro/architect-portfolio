@@ -13,20 +13,20 @@
 # DESKTOP (LIGHT/DARK)
 
 <div>
-<img src="./public/readme/desktop/destoplight/dektop_light00005.png" alt="" width="200px">
-<img src="./public/readme/desktop/destoplight/dektop_light00004.png" alt="" width="200px">
-<img src="./public/readme/desktop/destoplight/dektop_light00003.png" alt="" width="200px">
-<img src="./public/readme/desktop/destoplight/dektop_light00002.png" alt="" width="200px">
-<img src="./public/readme/desktop/destoplight/dektop_light00001.png" alt="" width="200px">
+<img src="./public/readme/desktop/destoplight/dektop_light00005.png" alt="" width="250px">
+<img src="./public/readme/desktop/destoplight/dektop_light00004.png" alt="" width="250px">
+<img src="./public/readme/desktop/destoplight/dektop_light00003.png" alt="" width="250px">
+<img src="./public/readme/desktop/destoplight/dektop_light00002.png" alt="" width="250px">
+<img src="./public/readme/desktop/destoplight/dektop_light00001.png" alt="" width="250px">
 
 </div>
 <hr>
 <div>
-<img src="./public/readme/desktop/desktopdark/dektop_dark00005.png" alt="" width="200px">
-<img src="./public/readme/desktop/desktopdark/dektop_dark00001.png" alt="" width="200px">
-<img src="./public/readme/desktop/desktopdark/dektop_dark00002.png" alt="" width="200px">
-<img src="./public/readme/desktop/desktopdark/dektop_dark00003.png" alt="" width="200px">
-<img src="./public/readme/desktop/desktopdark/dektop_dark00004.png" alt="" width="200px">
+<img src="./public/readme/desktop/desktopdark/dektop_dark00005.png" alt="" width="250px">
+<img src="./public/readme/desktop/desktopdark/dektop_dark00001.png" alt="" width="250px">
+<img src="./public/readme/desktop/desktopdark/dektop_dark00002.png" alt="" width="250px">
+<img src="./public/readme/desktop/desktopdark/dektop_dark00003.png" alt="" width="250px">
+<img src="./public/readme/desktop/desktopdark/dektop_dark00004.png" alt="" width="250px">
 
 </div>
 

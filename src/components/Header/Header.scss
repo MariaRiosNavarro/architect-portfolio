@@ -50,7 +50,7 @@
     padding: 0 1rem;
     justify-content: center;
     .icon-wrapper {
-      width: 2rem;
+      width: 3rem;
       padding-top: 0.5rem;
     }
     .nav-wrapper {
@@ -58,12 +58,13 @@
       justify-content: center;
       .nav-wrapper-links {
         justify-content: center;
+
         a {
-          margin: 0.5rem;
+          margin: 1rem;
         }
       }
       .icon-wrapper {
-        width: 1.5rem;
+        width: 2rem;
         margin: 0;
         padding: 0;
         padding-bottom: 0.3rem;

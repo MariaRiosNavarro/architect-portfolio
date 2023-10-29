@@ -66,11 +66,11 @@
   @media screen and (max-width: 750px) {
     .intro-wrapper {
       max-height: 50vh;
-
+      padding-top: 1rem;
       .intro-text {
         @include center-column;
         width: 50%;
-
+        padding-right: 3rem;
         span {
           font-size: 5rem;
         }
@@ -78,18 +78,6 @@
       .intro-img-wrapper {
         width: 50%;
         @include f-row;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .intro-wrapper {
-    padding-top: 1rem;
-    .intro-text {
-      padding-right: 3rem;
-      span {
-        font-size: 3rem;
       }
     }
   }

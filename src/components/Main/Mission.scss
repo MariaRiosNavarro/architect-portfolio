@@ -78,19 +78,6 @@
     .mi-wrapper {
       gap: 3rem;
       .mission {
-        .number {
-          font-size: 10rem;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .mission-wrapper {
-    .mi-wrapper {
-      gap: 3rem;
-      .mission {
         align-items: center;
         gap: 2rem;
         .number {

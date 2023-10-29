@@ -94,6 +94,12 @@
     .projects-img-wrapper {
       .projects-row {
         @include f-column;
+        .p-img-wrapper {
+          margin: 0 auto;
+          max-width: 75vw;
+          max-height: 45vh;
+          overflow: hidden;
+        }
         .first-wrapper {
           .projects-text {
             padding-top: 1.5rem;

@@ -1,4 +1,6 @@
-# Architect-Portfolio (Dektop, Tablet, Mobile)
+# Architect-Portfolio (Dektop, Tablet, Mobile)-
+
+Light/Dark & Loading Page
 
 # [Netlify Deployment](https://spiffy-faloodeh-108a9f.netlify.app/)
 

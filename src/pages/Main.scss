@@ -8,3 +8,9 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  .main-wrapper {
+    padding: 0 3rem 3rem 3rem;
+  }
+}

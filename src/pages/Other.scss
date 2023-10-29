@@ -1,0 +1,6 @@
+@import "../variables.scss";
+@import "../mixin.scss";
+.other-wrapper {
+  height: 60vh;
+  @include center-column;
+}

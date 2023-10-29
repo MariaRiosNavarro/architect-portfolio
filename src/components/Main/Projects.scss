@@ -93,6 +93,7 @@
   .project-wrapper {
     .projects-img-wrapper {
       .projects-row {
+        @include f-column;
         .first-wrapper {
           .projects-text {
             padding-top: 1.5rem;

@@ -10,7 +10,7 @@ const Intro = () => {
       </div>
       <div className="intro-img-wrapper">
         <div className="img-relativ">
-          <img src="/public/home/img1.jpeg" alt="building" />
+          <img src="/home/img1.jpeg" alt="building" />
           <Button name="VIEW PROJECT" />
         </div>
       </div>

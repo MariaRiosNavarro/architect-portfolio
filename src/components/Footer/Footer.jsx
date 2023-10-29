@@ -12,17 +12,12 @@ import InstaIcon from "../FooterSvg/InstaIcon";
 import PinIcon from "../FooterSvg/PinIcon";
 
 const Footer = () => {
-  //   const [count, setCount] = useState(0);
-  //   useEffect(() => {
-  //     console.log(count);
-  //   }, [count]);
-
   return (
     <>
       <footer className="footer-wrapper">
         <section className="footer-articles-wrapper">
           <span className="footer-logo-wrapper">
-            <img src="/public/footerLogo.png" alt="logo footer" />
+            <img src="./footerLogo.png" alt="logo footer" />
           </span>
           <nav className="footer-nav">
             <h2>Information</h2>
@@ -66,9 +61,5 @@ const Footer = () => {
     </>
   );
 };
-
-// Footer.propTypes = {
-//   property: PropTypes.string,
-// };
 
 export default Footer;

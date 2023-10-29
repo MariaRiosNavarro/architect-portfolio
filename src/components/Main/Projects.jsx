@@ -8,25 +8,25 @@ const Projects = () => {
       <div className="projects-img-wrapper">
         <div className="projects-row">
           <div className="p-img-wrapper first-wrapper">
-            <img src="/public/home/img5.png" alt="" />
+            <img src="./home/img5.png" alt="" />
             <div className="projects-text">
               <h3>Sample Project</h3>
               <Button name="VIEW MORE" className="special-btn" />
             </div>
           </div>
           <div className="p-img-wrapper">
-            <img src="/public/home/img6.png" alt="" />
+            <img src="./home/img6.png" alt="" />
           </div>
         </div>
         <div className="projects-row">
           <div className="p-img-wrapper">
-            <img src="/public/home/img7.png" alt="" />
+            <img src="./home/img7.png" alt="" />
           </div>
           <div className="p-img-wrapper">
-            <img src="/public/home/img8.png" alt="" />
+            <img src="./home/img8.png" alt="" />
           </div>
           <div className="p-img-wrapper">
-            <img src="/public/home/img9.png" alt="" />
+            <img src="./home/img9.png" alt="" />
           </div>
         </div>
       </div>

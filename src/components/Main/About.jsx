@@ -5,13 +5,13 @@ const About = () => {
   return (
     <article className="about-grid">
       <div className="about-img-wrapper one">
-        <img src="/public/home/img2.jpeg" alt="building" />
+        <img src="./home/img2.jpeg" alt="building" />
       </div>
       <div className="about-img-wrapper two">
-        <img src="/public/home/img3.jpeg" alt="building" />
+        <img src="./home/img3.jpeg" alt="building" />
       </div>
       <div className="about-img-wrapper three">
-        <img src="/public/home/img4.jpeg" alt="building" />
+        <img src="./home/img4.jpeg" alt="building" />
       </div>
       <div className="about-text-wrapper text">
         <h2>About</h2>

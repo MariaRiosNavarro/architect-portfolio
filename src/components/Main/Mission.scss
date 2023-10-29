@@ -31,9 +31,26 @@
 
 // }
 
-// @media screen and (max-width: 1000px) {
-
-// }
+@media screen and (max-width: 1000px) {
+  .mission-wrapper {
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    .mi-wrapper {
+      gap: 2rem;
+      .mission {
+        justify-content: space-between;
+        gap: 1rem;
+        .number {
+          font-size: 15rem;
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
 
 // @media screen and (max-width: 750px) {
 

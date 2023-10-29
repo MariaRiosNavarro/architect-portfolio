@@ -2,6 +2,7 @@
 @import "../../mixin.scss";
 
 .intro-wrapper {
+  padding-top: 3rem;
   width: 100%;
   @include f-row;
   justify-content: space-between;
@@ -43,10 +44,24 @@
 
 // }
 
-// @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
+  .intro-wrapper {
+    max-height: 50vh;
 
-// }
+    .intro-text {
+      @include center-column;
+      width: 50%;
 
-// @media screen and (max-width: 400px) {
+      span {
+        font-size: 5rem;
+      }
+    }
+    .intro-img-wrapper {
+      width: 50%;
+      @include f-row;
+    }
+  }
+}
 
-// }
+@media screen and (max-width: 400px) {
+}

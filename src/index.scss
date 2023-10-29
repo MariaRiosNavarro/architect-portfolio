@@ -131,3 +131,9 @@ h2 {
   font-family: $roboto-t;
   font-weight: 300;
 }
+
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 5rem;
+  }
+}

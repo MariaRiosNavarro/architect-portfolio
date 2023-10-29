@@ -54,7 +54,7 @@ const Contact = () => {
           </label>
         </form>
         <div className="contact-img-wrapper">
-          <img src="/public/home/img10.jpeg" alt="someone at phone" />
+          <img src="./home/img10.jpeg" alt="someone at phone" />
         </div>
       </div>
       <Button name="SEND EMAIL"></Button>

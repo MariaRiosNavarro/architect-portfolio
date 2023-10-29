@@ -1,9 +1,7 @@
-// import { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
-// import PropTypes from "prop-types";
 import "./Gallery.scss";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import PhotoGallery from "../components/Gallery/PhotoGallery";
 
 const Gallery = () => {
   //   const [count, setCount] = useState(0);
@@ -14,17 +12,10 @@ const Gallery = () => {
   return (
     <>
       <Header />
-      <article>
+      <article className="gallery-wrapper">
         <h2>Gallery</h2>
-        {/* <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          click +1
-        </button>
-        <p>{count}</p>
-        <Link to="/">See More</Link> */}
+        <span>Photos</span>
+        <PhotoGallery />
       </article>
       <Footer />
     </>

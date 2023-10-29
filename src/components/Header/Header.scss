@@ -71,9 +71,10 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .header-wrapper {
     padding: 0 1rem;
+    justify-content: center;
     .icon-wrapper {
       width: 3rem;
       padding-top: 0.5rem;

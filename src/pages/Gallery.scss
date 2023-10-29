@@ -1,2 +1,36 @@
-// @import "../variables.scss";
-// @import "../mixin.scss";
+@import "../variables.scss";
+@import "../mixin.scss";
+
+.gallery-wrapper {
+  padding: 6.3rem 14rem 23rem 14rem;
+  @include f-column;
+  max-width: 1440px;
+  margin: 0 auto;
+  span {
+    font-size: 6.4rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery-wrapper {
+    padding: 0 3rem 3rem 3rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .gallery-wrapper {
+    span {
+      font-size: 5rem;
+      padding-bottom: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .gallery-wrapper {
+    span {
+      font-size: 3rem;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+@import "../../mixin.scss";
+
+.photos-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+  .photos-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .photos-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

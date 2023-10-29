@@ -2,13 +2,14 @@
 @import "../../mixin.scss";
 
 .contact-wrapper {
+  margin: 0 auto;
   @include f-column;
   h2 {
     padding-bottom: 1rem;
   }
   .contact-sm-wrapper {
     padding-bottom: 7rem;
-    height: 50vh;
+    height: 80vh;
     @include f-row;
     justify-content: space-between;
     gap: 3rem;

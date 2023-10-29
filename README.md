@@ -1,4 +1,4 @@
-# Architect-Portfolio
+# Architect-Portfolio (Dektop, Tablet, Mobile)
 
 # [Netlify Deplpoyment] (https://spiffy-faloodeh-108a9f.netlify.app/)
 

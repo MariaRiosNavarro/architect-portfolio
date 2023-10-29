@@ -30,6 +30,7 @@
 
 @media screen and (max-width: 1200px) {
   .header-wrapper {
+    background-color: yellow;
     padding: 0 5rem;
     .nav-wrapper {
       .nav-wrapper-links {
@@ -47,6 +48,7 @@
 
 @media screen and (max-width: 750px) {
   .header-wrapper {
+    background-color: red;
     padding: 0 2rem;
     .nav-wrapper {
       justify-content: flex-start;
@@ -61,6 +63,7 @@
 
 @media screen and (max-width: 420px) {
   .header-wrapper {
+    background-color: green;
     padding: 0 1rem;
     justify-content: center;
     .icon-wrapper {

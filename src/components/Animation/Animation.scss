@@ -20,7 +20,7 @@
   background-color: transparent;
 }
 
-.roof-triangle {
+.roof {
   width: 0;
   height: 2.5rem;
   border-left: 6.2rem solid transparent;
@@ -45,16 +45,18 @@
 
 .left-wall {
   left: 0;
+  bottom: -3.5rem;
 }
 
 .right-wall {
   right: 0;
+  bottom: -3.5rem;
 }
 
 .floor,
 .left-wall,
 .right-wall,
-.roof-triangle {
+.roof {
   opacity: 0;
 }
 
@@ -73,7 +75,7 @@
   animation-delay: 3s;
 }
 
-.roof-triangle {
+.roof {
   animation: appear 7s infinite;
   animation-delay: 4s;
 }

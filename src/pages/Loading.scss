@@ -5,4 +5,7 @@
   background-color: $color;
   @include center-column;
   min-height: 100vh;
+  h2 {
+    padding-left: 3rem;
+  }
 }

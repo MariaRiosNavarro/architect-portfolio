@@ -15,6 +15,7 @@ Light/Dark & Loading Page
 # DESKTOP (LIGHT/DARK)
 
 <div>
+<img src="./public/readme/desktop/loading-desktop.png" alt="" width="250px">
 <img src="./public/readme/desktop/destoplight/dektop_light00005.png" alt="" width="250px">
 <img src="./public/readme/desktop/destoplight/dektop_light00004.png" alt="" width="250px">
 <img src="./public/readme/desktop/destoplight/dektop_light00003.png" alt="" width="250px">
@@ -37,7 +38,6 @@ Light/Dark & Loading Page
 <div>
 <img src="./public/readme/tablet/tabletlight/tablet_light00001.png " alt="" width="200px">
 <img src="./public/readme/tablet/tabletlight/tablet_light00002.png " alt="" width="200px">
-
 <img src="./public/readme/tablet/tabletlight/tablet_light00003.png " alt="" width="200px">
 <img src="./public/readme/tablet/tabletlight/tablet_light00004.png " alt="" width="200px">
 </div>
@@ -53,6 +53,8 @@ Light/Dark & Loading Page
 # MOBILE (LIGHT/DARK)
 
 <div>
+
+<img src="./public/readme/mobile/loading3_mo.png" alt="" width="150px">
 <img src="./public/readme/mobile/mobilelight/mobile_l00001.png" alt="" width="150px">
 <img src="./public/readme/mobile/mobilelight/mobile_l00002.png" alt="" width="150px">
 <img src="./public/readme/mobile/mobilelight/mobile_l00003.png" alt="" width="150px">

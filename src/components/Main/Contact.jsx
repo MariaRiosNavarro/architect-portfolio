@@ -15,25 +15,14 @@ const Contact = () => {
             <h4>
               Phone Number<span>*</span>
             </h4>
-
-            <input
-              type="text"
-              className="input-required"
-              name="phone"
-              id="phone"
-            />
+            <input type="text" name="phone" id="phone" />
           </label>
           <label htmlFor="email">
             <h4>
               Email<span>*</span>
             </h4>
 
-            <input
-              type="text"
-              className="input-required"
-              name="email"
-              id="email"
-            />
+            <input type="text" name="email" id="email" />
           </label>
           <label htmlFor="interessed">
             <h4>Interessed in</h4>
@@ -44,13 +33,7 @@ const Contact = () => {
               Message<span>*</span>
             </h4>
 
-            <textarea
-              type="text"
-              name="area"
-              rows={14}
-              className="input-required"
-              id="area"
-            />
+            <textarea type="text" name="area" rows={14} id="area" />
           </label>
         </form>
         <div className="contact-img-wrapper">

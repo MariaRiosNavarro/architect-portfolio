@@ -9,7 +9,7 @@
   }
   .contact-sm-wrapper {
     padding-bottom: 7rem;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     @include f-row;
     justify-content: space-between;
@@ -54,6 +54,7 @@
     .contact-img-wrapper {
       width: 60%;
       height: 100%;
+      overflow: hidden;
       img {
         height: 100%;
         max-width: none;

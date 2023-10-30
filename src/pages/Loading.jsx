@@ -5,11 +5,11 @@ import Animation from "../components/Animation/Animation";
 const Loading = () => {
   const { setLoading } = useContext(LoadingContext);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(true);
-  //   }, 4000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true);
+    }, 5000);
+  }, []);
 
   return (
     <>

@@ -12,11 +12,6 @@ import Contact from "../components/Main/Contact";
 import "./Main.scss";
 
 const Main = () => {
-  // const [count, setCount] = useState(0);
-  // useEffect(() => {
-  //   console.log(count);
-  // }, [count]);
-
   return (
     <>
       <section className="page-wrapper">
@@ -33,9 +28,5 @@ const Main = () => {
     </>
   );
 };
-
-// Main.propTypes = {
-//   property: PropTypes.string,
-// };
 
 export default Main;

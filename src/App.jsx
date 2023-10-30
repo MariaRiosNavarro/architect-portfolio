@@ -6,7 +6,6 @@ import Main from "./pages/Main";
 import Loading from "./pages/Loading";
 import { useState } from "react";
 import Other from "./pages/Other";
-// import "./App.scss";
 
 const App = () => {
   const [theme, setTheme] = useState(false);

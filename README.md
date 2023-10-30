@@ -4,14 +4,6 @@ Light/Dark & Loading Page
 
 # [Netlify Deployment](https://spiffy-faloodeh-108a9f.netlify.app/)
 
-# Process flow chart:
-
-<div>
-
-<img src="./public/readme/flow-chart.png" alt="" width="500px">
-
-</div>
-
 # DESKTOP (LIGHT/DARK)
 
 <div>
@@ -69,5 +61,13 @@ Light/Dark & Loading Page
 <img src="./public/readme/mobile/mobiledark/mobile_dark00003.png" alt="" width="150px">
 <img src="./public/readme/mobile/mobiledark/mobile_dark00004.png" alt="" width="150px">
 <img src="./public/readme/mobile/mobiledark/mobile_dark00005.png" alt="" width="150px">
+
+</div>
+
+# Process flow chart:
+
+<div>
+
+<img src="./public/readme/flow-chart.png" alt="" width="500px">
 
 </div>
